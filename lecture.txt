@@ -1,0 +1,15 @@
+Notes Taking app
+
+
+Users Routes
+===> /users/register: To register a new user ==>/users/login: For Authenticating the registered user
+
+
+For below routes to work the user needs to be authenticated (i.e user should have token)
+
+Notes Routes
+
+===> /notes/create: Creating a new note about some concept that you have learnt
+===> /notes: To get all the craeted notes
+===> /notes/update/:noteID: To update any note
+===> /notes/delete/:noteID: To delete a note
